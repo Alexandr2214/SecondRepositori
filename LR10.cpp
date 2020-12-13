@@ -8,11 +8,10 @@ int main()
     SetConsoleOutputCP(1251);
     const int n = 3;
     const int m = 3;
-    double B[n][m] = { {-1, 1, 2},
-                       {2, 1, 1},
-                       {1, 2, 1} },p = 3, sum = 0;
-    /*cout << "Введіть p";
-    cin >> p;*/
+    double B[n][m] = { {-1, 8, 5},
+                       {2, 1, 2},
+                       {1, 7, 6} },p = 3, sum = 0;
+    
     for (int i = 0; i < n; i++)
     {
         sum = 0;
